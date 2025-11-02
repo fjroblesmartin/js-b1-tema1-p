@@ -75,5 +75,9 @@ let planets = [
  * please comment or remove the following lines
  */
 export function tests() {
+    function tieneAnillo(planeta){
+        return (planeta.hasRings);
+    }
+    const result= planets.filter(tieneAnillo);
     return result;
 }
