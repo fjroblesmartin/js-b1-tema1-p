@@ -16,6 +16,10 @@
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
+function rangeOfNumbers(n){
+	if(n===0) return 0;
+	return n+rangeOfNumbers(n-1); 
+}
 
 
 
