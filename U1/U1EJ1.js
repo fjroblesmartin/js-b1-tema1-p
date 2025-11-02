@@ -77,5 +77,10 @@ let planets = [
  * please comment or remove the following lines
  */
 export function tests() {
+    function name_diameter(planeta){
+        return [planeta.name, planeta.diameter];
+    }
+    const result = planets.map(planeta);
+    //const result = planets.map(planeta => [planeta.name, planeta.diameter]);
     return result;
 }
