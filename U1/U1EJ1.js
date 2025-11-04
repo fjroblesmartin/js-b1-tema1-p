@@ -68,7 +68,10 @@ let planets = [
     ]
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
-
+function name_diameter(planeta){
+        return [planeta.name, planeta.diameter];
+    }
+    const result = planets.map(name_diameter);
 
 /**
  * TEST
@@ -77,9 +80,6 @@ let planets = [
  * please comment or remove the following lines
  */
 export function tests() {
-    function name_diameter(planeta){
-        return [planeta.name, planeta.diameter];
-    }
-    const result = planets.map(name_diameter);
+    
     return result;
 }
