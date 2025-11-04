@@ -66,7 +66,10 @@ let planets = [
     ]
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
-
+    function tieneAnillo(planeta){
+        return (planeta.hasRings);
+    }
+    const result= planets.filter(tieneAnillo);
 
 /**
  * TEST
@@ -75,9 +78,6 @@ let planets = [
  * please comment or remove the following lines
  */
 export function tests() {
-    function tieneAnillo(planeta){
-        return (planeta.hasRings);
-    }
-    const result= planets.filter(tieneAnillo);
+
     return result;
 }
