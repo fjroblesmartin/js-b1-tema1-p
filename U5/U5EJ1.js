@@ -4,7 +4,7 @@
 	-- CASTELLANO --
 	EJERCICIO 1.5.1 ENUNCIADO:
 	Dado el ejemplo de la teoría del Tema 1, Unidad 1, en donde se emplea en una función el método map para obtener las notas
-  de los estudiantes traducidas en letras a partir de valores numéricos, os pedimos reescribir su funcionalidad en la constante dada [planetDiameter]
+  de los estudiantes traducidas en letras a partir de valores numéricos, os pedimos reescribir su funcionalidad en la constante dada [letterGrade]
   empleando una función de flecha, y definiendo el resultado en una nueva constante llamada [result], de manera que si pasamos la llamada del ejemplo 
   del Tema 1 Unidad 1 nos devuelva el mismo resultado que en la función de la teoría: [ 'B', 'A', 'C', 'D', 'C' ]
   
@@ -61,8 +61,14 @@ const classroomStudents = [
  
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
+const letterGrade = (students) =>{
+  if(students.averageGrade>=9.0){return "A";}
+  else if(students.averageGrade>=8.0){return "B";}
+  else if(students.averageGrade>=3.0){return "C";}
+  else {return "D";}
+} 
 
-
+const result=classroomStudents.map(letterGrade);
 
 /**
  * TEST
