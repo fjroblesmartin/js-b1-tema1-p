@@ -32,8 +32,17 @@ console.log(evenNumbers(4,7,21,3)); //This will return [4,6,20,2]
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
-
-
+function evenNumbers(...numbers){
+  let restos=[...numbers];
+  for (let i=0;i<restos.length;i++){
+    restos[i]=restos[i]% 2;
+  }
+  let resultado = [];
+  for (let i=0;i<numbers.length;i++){
+    resultado[i]=numbers[i]-restos[i];
+  }
+ return resultado;
+}
 
 /**
  * TEST
