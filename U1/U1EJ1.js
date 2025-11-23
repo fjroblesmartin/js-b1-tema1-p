@@ -7,13 +7,6 @@
 	se nos pide, utilizando el método map, definir en una constante a la que llamaremos [result], un nuevo Array multidimensional, 
 	el cual en cada posición contenga a su vez un Array de dos posiciones: 
 	en la primera posición debe aparecer el nombre del planeta (name) y en la segunda su diámetro (diameter) 
-	
-	-- CATALÀ --
-	EXERCICI 1.1.1 ENUNCIAT:
-	Donat l'Array planets, compost d'objectes literals de JS que representen els planetes del sistema solar,
-	se'ns demana, emprant el mètode map, definir en una constant a la qual anomenarem [result], un nou Array multidimensional,
-	el qual en cada posició contingui alhora un Array de dues posicions:
-	a la primera posició ha d'aparèixer el nom del planeta (name) i a la segona el seu diàmetre (diameter)
 */
 //Do not modify this code:
 let planets = [
