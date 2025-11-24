@@ -14,19 +14,6 @@
   de la misma posición en el Array que hemos almacenado los restos de la división entre dos (esto propiciará que, para los números impares,
   restaremos 1 y para los pares restaremos 0).
   Por ejemplo: la llamada a la función evenNumbers(4,7,21,3); debería devolvernos [4,6,20,2]
-  -- CATALÀ --
-	EXERCICI 1.4.2 ENUNCIAT:
-	Crea una funció anomenada [evenNumbers] de manera que aquesta rebi un nombre indeterminat de valors enters i torni un Array amb
-  el nombre inferior i parell més proper als números introduïts, és a dir, si en una posició introduïm un 7 ens tornarà un 6,
-  si introduïm un 6, llavors ens tornarà un 6. Com a estratègia podeu seguir la següent: si la funció evenNumbers la definim amb
-  paràmetres rest, tenim per una banda que els paràmetres rebuts poden ser d'un nombre indeterminat a priori, i per una altra que
-  podem tractar directament aquests paràmetres com un Array; un cop rebuts aquests paràmetres, els ficarem en un nou Array
-  (clonant-los fent ús de l'operador spread) i calcularem la resta de la divisió entre 2 per a cada element d'aquest nou Array,
-  redefinint a cada posició d'aquest nou Array el valor de la resta de la divisió.
-  Finalment només ens quedarà tornar un altre Array que serà, per a cada posició, l'Array de paràmetres rebuts menys el valor
-  de la mateixa posició a l'Array que hem emmagatzemat les restes de la divisió entre dos (això propiciarà que, per als nombres imparells,
-  restarem 1 i per als parells en restarem 0).
-  Per exemple: la crida a la funció evenNumbers(4,7,21,3); ens hauria de tornar [4,6,20,2]
 */
 console.log(evenNumbers(4,7,21,3)); //This will return [4,6,20,2]
 
