@@ -7,11 +7,6 @@
 	se nos pide, utilizando el método filter, definir en una constante a la que llamaremos [result], un nuevo Array 
 	en el cual solamente tendremos planetas con anillos (los definidos por la propiedad hasRings = true)
 	
-	-- CATALÀ --
-	EXERCICI 1.1.2 ENUNCIAT:
-	Donat l'Array planets, compost d'objectes literals de JS que representen els planetes del sistema solar,
-	se'ns demana, emprant el mètode filter, definir en una constant a la qual anomenarem [result], un nou Array
-	en el qual únicament tindrem planetes amb anells (els definits per la propietat hasRings = true)
 */
 //Do not modify this code:
 let planets = [
