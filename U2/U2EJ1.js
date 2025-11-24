@@ -13,17 +13,6 @@
 	Fibonacci en esta posición, de tal manera que, si la instanciamos en el bucle for dado obtendríamos los 10 
 	primeros valores de esta sucesión.
 	
-	-- CATALÀ --
-	EXERCICI 1.2.1 ENUNCIAT:
-	Un exemple de recursivitat aplicada en una funció que heu vist en la teoria és el càlcul del factorial, 
-	un altre clàssic exemple és el càlcul de la successió de Fibonacci.
-	La definició de la successió de Fibonacci és molt simple: és una successió de valors que comença amb els números 0 i 1;
-	a partir d'aquests, cada terme serà la suma dels dos anteriors. 
-	Donada aquesta definició és immediat concloure que estem davant d'una relació de recurrència la lògica de la qual 
-	podem traslladar a una funció recursiva. 
-	Defineix el cos d'una funció recursiva la qual anomenarem [fibonacci] que rebi un número i que calculi el valor de la successió de 
-	Fibonacci en aquesta posició, de manera que, si la instàncies al bucle for donat obtindríem els 10 primers valors 
-	d'aquesta successió.
 */
 for(let i=0; i<10;i++){
 	console.log(fibonacci(i));
@@ -36,7 +25,6 @@ function fibonacci(n){
 	if(n===1){return 1;}
 	return fibonacci(n-1)+fibonacci(n-2);
 }
-
 
 /**
  * TEST
