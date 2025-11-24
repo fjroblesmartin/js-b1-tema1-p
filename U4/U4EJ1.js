@@ -6,12 +6,7 @@
   Crea una función llamada [reverseArray] de manera que reciba un número indeterminado de valores enteros y que nos devuelva 
   este Array en sentido inverso.
   Por ejemplo: la llamada a la función reverseArray(4,7,21,3); nos debería devolver el Array [3,21,7,4]
-  -- CATALÀ --
-  EXERCICI 1.4.1 ENUNCIAT:
-  Crea una funció anomenada [reverseArray] de manera que rebi un nombre indeterminat de valors sencers
-  i que ens torni aquest Array en sentit invers.
-  Per exemple: la crida a la funció reverseArray(4,7,21,3); ens hauria de tornar l'Array [3,21,7,4]
-*/
+ */
 console.log(reverseArray(4,7,21,3)); //This will return [3,21,7,4]
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
