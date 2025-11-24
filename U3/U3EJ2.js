@@ -9,14 +9,6 @@
   Para esto usaremos una función (a la que llamaremos calculatedYears) dentro de la función
   principal que reciba un estudiante por parámetro y nos devuelva la edad actual.
   Si es correcta, la llamada a la función del ejemplo debería devolvernos el siguiente Array: [25, 24, 20, 23, 21]
-	-- CATALÀ --
-	EXERCICI 1.3.2 ENUNCIAT:
-	Donada la constant classroomStudents (un array) que emmagatzema un conjunt d'estudiants (objectes), se'ns demana
-  definir una funció anomenada (currentAge) que rebi aquest array classroomStudents com a paràmetre i que ens torni un nou array
-  que contingui l'edat actual de cada estudiant (considerarem directament que som al any 2023). 
-  Per això farem servir una funció (a la que anomenarem calculatedYears) dins de la funció
-  principal que rebi un estudiant per paràmetre i ens torni l'edat actual.
-  Si és correcta, la crida a la funció de l'exemple ens hauria de tornar el següent Array: [25, 24, 20, 23, 21]
 */
 //Do not modify this code:
 // Declaring and initializing the array that represents the students in the classroom.
@@ -67,8 +59,6 @@ function currentAge(arra){
   }
     return arra.map(calculatedYears);
 }
-
-
 
 /**
  * TEST
