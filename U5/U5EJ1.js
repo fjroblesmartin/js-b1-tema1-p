@@ -11,14 +11,6 @@
   Consejo: os recomendamos traducir las expresiones condicionales de la función con operadores ternarios 
   (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 	
-	-- CATALÀ --
-	EXERCICI 1.5.1 ENUNCIAT:
-  Donat l'exemple de la teoria del Tema 1, Unitat 1, on s'empra en una funció el mètode map per obtenir les notes
-  dels estudiants traduïdes en lletres a partir de valors numèrics, us demanem reescriure la seva funcionalitat a la constant donada [planetDiameter]
-  emprant una funció de fletxa, i definint el resultat a una nova variable anomenada [result], de manera que si passem la trucada de l'exemple 
-  del Tema 1 Unitat 1 ens torni el mateix resultat que en la funció de la teoria: [ 'B', 'A', 'C', 'D', 'C' ]
-  Consell: us recomanem traduir les expressions condicionals de la funció amb operadors ternaris
-  (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 */
 // Declaring and initializing the array that represents the students in the classroom.
 const classroomStudents = [
