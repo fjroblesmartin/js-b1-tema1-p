@@ -9,14 +9,6 @@
   Para esto usaremos una función (a la que llamaremos isApproved) dentro de la función
   principal que reciba un estudiante por parámetro y nos devuelva si está o no aprobado (es decir si tiene un averageGrade igual o superior a 5).
   Si es correcta, la llamada a la función del ejemplo debería devolvernos el siguiente valor: 2
-	-- CATALÀ --
-	EXERCICI 1.3.3 ENUNCIAT:
-	Donada la constant classroomStudents (un array) que emmagatzema un conjunt d'estudiants (objectes), se'ns demana
-  definir una funció anomenada (totalApproved) que rebi aquest array classroomStudents com a paràmetre i que ens torni el
-  nombre d'aprovats total que hi ha a la classe.
-  Per això farem servir una funció (a la que anomenarem isApproved) dins de la funció
-  principal que rebi un estudiant per paràmetre i ens torni si està o no aprovat (és a dir si té un averageGrade igual o superior a 5).
-  Si és correcta, la crida a la funció de l'exemple ens hauria de tornar el valor següent: 2
 */
 //Do not modify this code:
 // Declaring and initializing the array that represents the students in the classroom.
@@ -69,7 +61,6 @@ function totalApproved(arra)
     const approvedStudents=arra.filter(isApproved);
     return approvedStudents.length;
 }
-
 
 /**
  * TEST
