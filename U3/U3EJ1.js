@@ -9,14 +9,7 @@
   Para calcular estas operaciones de elevar al cuadrado, debes definir (y emplear) dentro de la función principal (hypotenuse)
   otra función (llamada square) que reciba un valor como parámetro y lo devuelva elevado al cuadrado.
   Si es correcta la llamada del ejemplo hypotenuse(3,4); debería devolver un valor de 5.
-	-- CATALÀ --
-	EXERCICI 1.3.1 ENUNCIAT:
-	Crea una funció (anomenada hypotenuse) que rebi com a paràmetres la base i l'alçada d'un triangle rectangle i torni el valor de la seva hipotenusa.
-  Recordeu que la fórmula del càlcul de la hipotenusa triangle rectangle, donades la base i l'alçada és c = √(b²+a²).
-  És a dir: l'arrel quadrada de la base al quadrat més l'alçada al quadrat.
-  Per calcular aquestes operacions d'elevar al quadrat, has de definir (i emprar) dins la funció principal (hypotenuse)
-  una altra funció (anomenada square) que rebi un valor com a paràmetre i el torni elevat al quadrat.
-  Si és correcta la crida a la funció de l'exemple hypotenuse(3,4); hauria de tornar un valor de 5.
+	
 */
 
 //Do not modify this code:
