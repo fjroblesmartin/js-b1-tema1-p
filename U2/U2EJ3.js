@@ -6,17 +6,13 @@
 	Define el cuerpo de una función recursiva denominada [oddNumbers] que recibiba un número y un Array vacío como parámetro y rellene este Array 
 	recibido como parámetro con todos los números impares que hay entre cero y el número recibido (con este incluido) como parámetro. 
 	Por ejemplo siendo myArray un Array vacío, la llamada a la función oddNumbers(7, myArray) devolvería myArray con los valores [7, 5, 3, 1] 
-	-- CATALÀ --
-	EXERCICI 1.2.3 ENUNCIAT:
-	Defineix el cos d'una funció recursiva anomenada [oddNumbers] que rebi un nombre i un Array buit com a paràmetre i empleni aquest Array
-	rebut com a paràmetre amb tots els números senars que hi ha entre zero i el nombre rebut (amb aquest inclòs) com a paràmetre.
-	Per exemple sent myArray un Array buit, la crida a la funció oddNumbers(7, myArray) tornaria myArray amb els valors [7, 5, 3, 1]
 */
 //Do not modify this code:
 let myArray = new Array();
 oddNumbers(7, myArray);
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
+
 function oddNumbers(n, arr){
 if (n<=0) {
     	return arr;
@@ -26,7 +22,6 @@ if (n<=0) {
     }
 return oddNumbers(n-1,arr);
 }
-
 
 /**
  * TEST
