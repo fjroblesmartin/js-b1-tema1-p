@@ -6,11 +6,6 @@
 	Dada la constante classroomStudents (un array) que almacena un conjunto de estudiantes (objetos), se nos pide
   crear una función llamada [oldest] que reciba un número indeterminado de esudiantes como parámetros rest,
   (los cuales los podremos obtener de classroomStudents) y que nos devuelva el nombre del estudiante de mayor edad.
-  -- CATALÀ --
-	EXERCICI 1.4.3 ENUNCIAT:
-	Donada la constant classroomStudents (un array) que emmagatzema un conjunt d'estudiants (objectes), se'ns demana
-  crear una funció anomenada [oldest] que rebi un nombre indeterminat d'esudiants com a paràmetres rest,
-  (els quals els podrem obtenir de classroomStudents) i que ens torni el nom de l'estudiant de més edat.
 */
 // Declaring and initializing the array that represents the students in the classroom.
 const classroomStudents = [
@@ -65,7 +60,6 @@ function oldest(...estudiantes) {
     }
     return estudianteMasViejo.name;
 }
-
 
 /**
  * TEST
