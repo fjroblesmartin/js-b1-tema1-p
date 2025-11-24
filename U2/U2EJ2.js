@@ -7,11 +7,6 @@
 	los números que hay desde 0 hasta el número recibido. Es decir, el resultado de la llamada a la función 
 	rangeOfNumbers(4) debería ser 1+2+3+4 = 10
 	
-	-- CATALÀ --
-	EXERCICI 1.2.2 ENUNCIAT:
-	Defineix el cos d'una funció anomenada rangeOfNumbers (ja donada) que rebi un número com a paràmetre i torni la suma de tots
-	els números que hi ha des de 0 fins al número rebut. És a dir, el resultat de la crida a la funció
-	rangeOfNumbers(4) hauria de ser 1+2+3+4 = 10
 */
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
